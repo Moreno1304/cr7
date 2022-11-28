@@ -1,0 +1,44 @@
+:root {
+    --letras-color: rgba(255, 15, 0, 1);
+}
+
+body {
+    display: grid;
+    grid-template-areas: "content";
+    /*background-color: black;*/
+    color: white;
+}
+
+header {
+    grid-area: content;
+    place-self: start center;
+    z-index: 1;
+    width: 100%;
+    max-width: 1700px;
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: springgreen;
+}
+
+main {
+    grid-area: content;
+    background-color: teal;
+}
+
+section {
+    height: 100vh;
+}
+
+footer {
+    grid-area: content;
+    display: grid;
+    place-self: end center;
+    height: 50px;
+    width: 100%;
+    background-color: yellowgreen;
+    font-size: 75rem;
+    text-align: center;
+    align-items: center;
+}
