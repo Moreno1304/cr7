@@ -19,12 +19,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: springgreen;
 }
 
 main {
     grid-area: content;
-    background-color: teal;
+    background-color: #000000;
 }
 
 section {
@@ -37,7 +36,7 @@ footer {
     place-self: end center;
     height: 50px;
     width: 100%;
-    background-color: yellowgreen;
+    background-color: #000000;
     font-size: 75rem;
     text-align: center;
     align-items: center;
