@@ -5,7 +5,7 @@
 body {
     display: grid;
     grid-template-areas: "content";
-    /*background-color: black;*/
+    background-color: white;
     color: white;
 }
 
@@ -14,7 +14,7 @@ header {
     place-self: start center;
     z-index: 1;
     width: 100%;
-    max-width: 1700px;
+    max-width: 1000px;
     margin-top: 45px;
     display: flex;
     justify-content: space-between;
